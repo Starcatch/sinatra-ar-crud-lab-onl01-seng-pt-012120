@@ -69,4 +69,4 @@ describe "Magazine App" do
     end
 
 
-  end
+ end
