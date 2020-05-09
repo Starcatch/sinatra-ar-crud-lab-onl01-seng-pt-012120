@@ -1,0 +1,9 @@
+<h1>Articles</h1>
+
+<% @articles.each.with_index(1) do |article, i| %>
+
+<p><%=article.title unless article.title.nil? %></p>
+<p><%=article.content + "<br><br>" unless article.content.nil? %></p>
+
+
+<% end %>
