@@ -1,7 +1,7 @@
 <h1>Update Article with ID: <%=@article.id%></h1>
 
 <form action="/articles/<%=@article.id%>" method="post">
-<input id="hidden" type="hidden" name="_method" value="PATCH
+<input id="hidden" type="hidden" name="_method" value="PATCH">
 
 <h3>Edit: <%=@article.title%></h3>
 <h3><%=@article.content%></h3>
@@ -12,5 +12,4 @@
 <input type="textbox" id="content" name="content">
 
 <input type="submit" value="submit">
-  
 </form>
